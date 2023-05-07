@@ -24,7 +24,7 @@ end
 ########################
 ## Install wordpress ##
 #######################
-execute 'blog...' do
+execute 'wp...' do
   command 'echo =====> Installing WP... '
   live_stream true
 end
@@ -86,7 +86,7 @@ end
 #########################
 ## Configure database ##
 ########################
-execute 'blog...' do
+execute 'db...' do
   command 'echo =====> Creating DB... '
   live_stream true
 end
@@ -117,7 +117,7 @@ end
 ####################################
 ## Connect wordpress to database ##
 ###################################
-execute 'blog...' do
+execute 'wp_db...' do
   command 'echo =====> Configuring DB for WP... '
   live_stream true
 end

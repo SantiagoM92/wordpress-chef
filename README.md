@@ -44,4 +44,8 @@ For this exercise I used a mysql cookbook as a module from https://supermarket.c
 
 For check it :
 
-http://192.168.33.10:9001/
+http://192.168.33.10:80/
+
+or
+
+http://localhost:80/

@@ -3,7 +3,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.define "wordpress"
 
-  config.vm.network "forwarded_port", guest: 80, host: 9001
+  config.vm.network "forwarded_port", guest: 80, host: 80
   config.vm.network "private_network", ip: "192.168.33.10"
 
   if Vagrant::Util::Platform.windows?
