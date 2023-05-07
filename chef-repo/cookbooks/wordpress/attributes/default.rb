@@ -1,0 +1,5 @@
+default['apache']['document_root'] = "/vagrant"
+default['mysql']['db_name'] = "wordpress"
+default['mysql']['db_user'] = "wordpress"
+default['mysql']['db_password'] = "w0rdpress"
+default['mysql']['db_host'] = "localhost"
