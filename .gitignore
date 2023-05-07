@@ -3,3 +3,4 @@ chef-repo/cookbooks/apparmor
 chef-repo/cookbooks/line
 chef-repo/cookbooks/mysql
 .DS_Store
+Policyfile.lock.json

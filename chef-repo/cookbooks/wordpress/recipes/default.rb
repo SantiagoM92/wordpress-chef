@@ -159,6 +159,6 @@ end
 #Finishing
 execute 'Finishing...' do
   command '/usr/games/cowsay Its Done !'
-  only_if "/usr/bin/sudo curl -s localhost | grep -q 'Jairo' && echo true || echo false"
+  only_if "/usr/bin/sudo curl -s localhost | grep -q 'Provision' && echo true || echo false"
   live_stream true
 end

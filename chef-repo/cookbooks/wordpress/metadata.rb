@@ -1,2 +1,8 @@
 name 'wordpress'
+maintainer 'jsmu'
+maintainer_email 'you@example.com'
+license 'All Rights Reserved'
+description 'Installs/Configures unit_tests'
+version '0.1.0'
+chef_version '>= 16.0'
 depends 'mysql'
