@@ -12,7 +12,7 @@ end
 ## Ensure that dependencies are installed ##
 ############################################
 execute 'Start...' do
-  command '/usr/games/cowsay Provisioning Wordpress By Jairo Martinez'
+  command '/usr/games/cowsay Provisioning Wordpress in Group'
   live_stream true
 end
 
@@ -152,7 +152,7 @@ end
 ##create first post
 execute 'first_post' do
   cwd '/srv/www/wordpress'
-  command "/usr/local/bin/wp post create --post_title='Provision WordPress using Vagrant and Chef' --post_content='This deploy was made by Jairo Martinez 😃' --post_status='publish'"
+  command "/usr/local/bin/wp post create --post_title='Provision WordPress using Vagrant and Chef' --post_content='This deploy was made by Group 😃' --post_status='publish'"
   user 'www-data'
 end
 
